@@ -1,0 +1,478 @@
+<html>
+  <head>
+    <title>Ruinian Xu</title>
+    <script src='js/jquery-1.11.2.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/academicons.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,100italic,100,300,300italic,400italic,500italic,900italic,700italic' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        font-family: 'sans-serif';
+        font-size: 12pt;
+        background-color: #EBEBEB;
+        color: #4F6071;
+      }
+<!--
+EBEBEB
+-->
+      .color1 {
+        background-color: #CCC;
+      }
+      #header {
+        width: 100%;
+        height: 360px;
+        background-color: #829CD0;
+      }
+      #header-inner {
+        position: absolute;
+        width: 70%;
+        left: 30%;
+        top: 150px;
+      }
+      .img-me {
+        border: 3px solid white;
+        float: left;
+        height: 200px;
+      }
+      .header-text {
+        margin-top: 40px;
+        margin-left: 220px;
+      }
+      .header-text-name {
+        font-weight: bold;
+        font-size: 40px;
+      }
+      .header-text-title {
+
+        font-size: 20px;
+      }
+      .header-text-email {
+        font-size: 20px;
+        font-style: italic;
+      }
+      .header-text-desc {
+        font-size: 20px;
+      }
+      .header-icon {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 35px;
+      }
+      #contact-info {
+        position: absolute;
+        left: 80%;
+        width: 20%;
+        top: 360px;
+        height: 100px;
+        background-color: #EEE;
+      }
+      .vspace {
+        margin-bottom: 20px;
+      }
+      .vspace-top {
+        margin-top: 30px;
+      }
+      .paper-image {
+        width: 150px;
+        border: 4px #BEC7CF double;
+        border-radius: 6px;
+      }
+      .paper-title {
+        font-size: 14pt;
+        font-weight: bold;
+      }
+      .paper-authors {
+      }
+      .paper-authors a {
+        color: #4F6071;
+      }
+      .paper-link {
+      }
+      .intern-image {
+        width: 100px;
+      }
+      .school-image {
+        max-width: 36%;
+        height: auto;
+        padding: 0.5em;
+        padding-bottom: 15px;
+      }
+      .school{
+        font-size: 10pt;
+        line-height: 10px;
+        padding-bottom: 10px;
+      }
+      .section-about .education p, .section-about .industry p {
+        margin: 0px;
+      }
+    </style>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-50623594-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id='header'>
+      <div id='header-inner'>
+        <img src='images/rx_selfie.jpeg' class='img-circle img-me'>
+        <div class='header-text'>
+          <div class='header-text-name'>
+            Ruinian Xu
+          </div>        
+          <div class='header-text-title'>
+            Georgia Institute of Technology
+          </div>
+          <div class='header-text-email'>
+            rxu72@gatech.edu
+          </div>
+          <div class='header-icon'>
+            <a href="https://github.com/ruinianxu"  target="_blank" class="fa fa-github-square"></a>
+            <a href="https://www.linkedin.com/in/gtsimonxu"  target="_blank" class="fa fa-linkedin-square"></a>
+            <a href="https://www.facebook.com/ruinian.xu.7"  target="_blank" class="fa fa-facebook-square"></a>
+            <a href="mailto:rxu72@gatech.edu" class="fa fa-envelope-square"></a>
+            <a href="https://scholar.google.com/citations?user=qy644T4AAAAJ&hl=en" target="_blank" class="ai ai-google-scholar-square"></a>
+               
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='container'>
+      <div class='col-xs-10 col-md-offset-1'>
+        <div class='row'>
+          <h1>About</h1>
+          <div class='vspace'>
+            I am a Ph.D. student at Georgia Tech, advised by 
+            <a href="https://www.ece.gatech.edu/faculty-staff-directory/patricio-antonio-vela" target='_blank'> Prof. Patricio A. Vela</a> in 
+            <a href="http://ivalab.gatech.edu/" target='_blank'> IVALab.</a> 
+            Prior to that, I received M.S. from ECE at Georgia Tech in 2018, and B.S. from ECE at Tongji University in 2016. 
+          </div>
+          <div class='vspace'>
+            I enjoy working on multi-modal robotic manipulation with both visual and linguistic information, which allows assistive robotic agents to perform certain tasks in physical world. My research field lies at the intersection of <b>robotics</b>, <b>computer vision</b> and <b>machine learning</b>.
+          </div>
+        </div>
+<!--
+        <hr class="featurette-divider ">
+-->
+
+        <div class='row'>
+          <h1 id="projects ", class="page-header "> Publications </h1>
+          Please see my  
+          <a href="https://scholar.google.com/citations?user=qy644T4AAAAJ&hl=en">Google Scholar</a>
+          for complete publication list.
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/shape_j.jpeg'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Primitive Shape Recognition for Object Grasping
+              </div>
+              <div class='paper-authors'>
+                <a href='https://www.linkedin.com/in/yunzhi-lin-53165a139/' target="_blank">Yunzhi Lin</a>,
+                <a href='https://www.linkedin.com/in/chao-tang-280311179/' target="_blank">Chao Tang</a>,
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <u>Ruinian Xu</u>,
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>
+              </div>
+              <div>submitted to IJRR</div>
+              <div>
+                <a href='https://arxiv.org/pdf/2201.00956.pdf' target="_blank">[pdf]</a>
+              </div>
+            </div>
+          </div>
+            
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class="static" src="images/context.png">
+              <img class="paper-image" src="images/context.gif">
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Recognizing Object Affordances to Support Scene Reasoning for Manipulation Tasks
+              </div>
+              <div class='paper-authors'>
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <u>Ruinian Xu</u>,
+                <a href='https://www.linkedin.com/in/chao-tang-280311179/' target="_blank">Chao Tang</a>,
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>
+              </div>
+              <div>submitted to IJRR</div>
+              <div>
+                <a href='https://arxiv.org/pdf/1909.05770.pdf' target="_blank">[pdf]</a>
+                <a href='https://sites.google.com/view/affordance-att2' target="_blank">[project]</a>
+              </div>
+            </div>
+          </div>
+            
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class="static" src="images/keypoint.png">
+              <img class="paper-image" src="images/keypoint.gif">
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                An Affordance Keypoint Detection Network for Robot Manipulation
+              </div>
+              <div class='paper-authors'>
+                <u>Ruinian Xu</u>,
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <a href='https://scholar.google.com/citations?user=hXGhWsUAAAAJ&hl=zh-CN' target="_blank">Chao Tang</a>,
+                <a href='http://weiyuliu.com/' target="_blank">Weiyu Liu</a>,  
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>
+              </div>
+              <div>IEEE RA-L 2021 with ICRA 2021</div>
+              <div>
+                <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9364360' target="_blank">[pdf]</a>
+                <a href='https://sites.google.com/view/affordancekp/home?authuser=2&fbclid=IwAR2KdjqX5Qcu5quPk7NVe8X2P-1YmvjGk5LP2_w_joDQTLM2IUyNz6AwhgI'  target="_blank">[project]</a>
+                <a href='https://sites.google.com/view/rgb-d-aff-kp-dataset/home?authuser=2' target="_blank">[dataset]</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/gknet.png'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                GKNet: Grasp Keypoint Network for Grasp Detection
+              </div>
+              <div class='paper-authors'>
+                <u>Ruinian Xu</u>,
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>
+              </div>
+              <div>IJRR 2022</div>
+              <div>
+                <a href='https://arxiv.org/pdf/2106.08497.pdf' target="_blank">[pdf]</a>
+                <a href=''>[project]</a>
+              </div>
+            </div>
+          </div>
+           
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class="static" src="images/pddl.png">
+              <img class="paper-image" src="images/pddl.gif">
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Toward Affordance Detection and Ranking on Novel Objects for Real-world Robotic Manipulation
+              </div>
+              <div class='paper-authors'>
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <u>Ruinian Xu</u>,
+                <a href='https://www.linkedin.com/in/landan-seguin/' target="_blank">Landan Seguin</a>,
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>
+              </div>
+              <div>IEEE RA-L 2019 with IROS 2019</div>
+              <div>
+                <a href='https://ieeexplore.ieee.org/abstract/document/8770077' target="_blank">[pdf]</a>
+                <a href='https://sites.google.com/view/toader' target="_blank">[project]</a>
+                <a href='https://www.youtube.com/watch?time_continue=48&v=EYCWq3aSAiE&feature=emb_logo' target="_blank">[video]</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class="static" src="images/affordance.png">
+              <img class="paper-image" src="images/affordance2.gif">
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Learning Affordance Segmentation for Real-world Robotic Manipulation via Synthetic Images
+              </div>
+              <div class='paper-authors'>
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <u>Ruinian Xu</u>,
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>
+              </div>
+              <div>IEEE RA-L 2019 with ICRA 2019</div>
+              <div>
+                <a href='https://ieeexplore.ieee.org/abstract/document/8620534'>[pdf]</a>
+                <a href='https://sites.google.com/view/affordance-learn'>[project]</a>
+                <a href='https://www.youtube.com/watch?v=njb2r_dRcuM&feature=emb_logo' target="_blank">[video]</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/deepgrasp.png'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Real-World, Multiobject, Multigrasp Detection
+              </div>
+              <div class='paper-authors'>
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <u>Ruinian Xu</u>,
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>
+              </div>
+              <div>IEEE RA-L 2018 with IROS 2018</div>
+              <div>
+                <a href='https://arxiv.org/pdf/1802.00520.pdf'>[pdf]</a>
+                <a href='https://sites.google.com/view/deepgrasp'>[project]</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class="static" src="images/handy_tds.png">
+              <img class="paper-image" src="images/handy_tds.gif">
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Hands-Free Control of an Assistive Manipulator Using Augmented Reality and Tongue Drive System
+              </div>
+              <div class='paper-authors'>
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <u>Ruinian Xu</u>,
+                <a href=''>Zhenxuan Zhang</a>,
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>,
+                <a href=''>Maysam Ghovanloo</a>
+              </div>
+              <div>IEEE IROS 2018</div>
+              <div>
+                <a href='https://ieeexplore.ieee.org/document/8594508'>[pdf]</a>
+                <a href='https://sites.google.com/view/hands-free'>[project]</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/EMBC.png'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                The Helping Hand: An Assitive Manipulation Framework Using Augmented Reality and Tongue-Drive Interfaces
+              </div>
+              <div class='paper-authors'>
+                <a href='https://fujenchu.github.io/' target="_blank">Fu-Jen Chu</a>,
+                <u>Ruinian Xu</u>,
+                <a href=''>Zhenxuan Zhang</a>,
+                <a href='https://scholar.google.com/citations?user=qL6ycTgAAAAJ&hl=en' target="_blank">Patricio A. Vela</a>,
+                <a href=''>Maysam Ghovanloo</a>
+              </div>
+              <div>IEEE EMBC 2018</div>
+              <div>
+                <a href='https://ieeexplore.ieee.org/abstract/document/8512668'>[pdf]</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+          
+<!--                    
+    <div class="row education">
+          <h1 id="projects ", class="page-header "> Industry </h1>
+          
+          <div class="col-sm-4 col-xs-6 school">
+            <center><img src="images/FB_AI.png" class="school-image"></center>
+            <p align="center">Facebook AI Research (FAIR)</p> 
+            <p align="center"><small>Research Scientist, Aug. 2020 - present</small></p>
+          
+            <p></p>
+          </div>
+          
+          <div class="col-sm-4 col-xs-6 school">
+            <center><img src="images/TI_trans.png" class="school-image"></center>
+            <p align="center">Texas Instruments</p>
+            <p align="center"><small>Research Intern, Summer 2016</small></p>
+            <p align="center"><small>with <a href="https://www.linkedin.com/in/murtaza-ali-4381236/" target="_blank"> Dr. Murtaza Ali</a></small></p>
+            <p></p>
+          </div>
+          <div class="col-sm-4 col-xs-6 school">
+            <center><img src="images/Volvo_logos.jpg" class="school-image"></center>
+            <p align="center">Volvo Group</p>
+            <p align="center"><small>Research Intern, Spring 2016</small></p>
+            <p align="center"><small>with <a href="https://www.linkedin.com/in/faresbeainy/" target="_blank"> Dr. Fares Beainy</a></small></p>
+            <p></p>
+          </div>
+      </div>   
+-->    
+     <div class="row education">
+          <h1 id="projects ", class="page-header "> Education </h1>
+          <div class="col-sm-4 col-xs-6 school">
+            <center><img src="images/GT.png" class="school-image"></center>
+            <p align="center">Georgia Institute of Technology</p>
+            <p align="center"><small>Master of Science</small></p>
+            <p align="center"><small>Electrical and Computer Engineering</small></p>
+            <p></p>
+          </div>
+          <div class="col-sm-4 col-xs-6 school">
+            <center><img src="images/tj.png" class="school-image"></center>
+            <p align="center">Tongji University</p>
+            <p align="center"><small>Bachelor of Science</small></p>
+            <p align="center"><small>Electrical and Computer Engineering</small></p>
+            <p></p>
+          </div>
+      </div>
+              
+<!--
+        <div class='row'>
+          <h1 id="projects ", class="page-header "> Industry </h1>
+
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='intern-image' src='images/TI.png '>
+            </div>
+            <div class='col-xs-9'>
+	      <h4 class="featurette-heading "> Texas Instruments, Perception and Analytics R&D lab, May 2016 - Aug. 2016</h4>
+              <h5 class="featurette-heading "> Multi-body Structure from Motion </h5>
+	      <h5>
+                Director: <a href="https://www.linkedin.com/in/murtaza-ali-4381236/" target="_blank"> Dr. Murtaza Ali</a>, 
+                Mentors:  <a href="https://www.linkedin.com/in/martin-mueller-71303957/" ,="" target="_blank ">Dr. Martin Mueller</a>, 
+                          <a href="https://www.linkedin.com/in/vikram-appia-33120326/"> Dr. Vikram Appia</a>
+            </div>
+          </div>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='intern-image' src='images/Volvo_logos.jpg '>
+            </div>
+            <div class='col-xs-9'>
+	      <h4 class="featurette-heading "> Volvo Group, CE Emerging Technology team, Jan. 2016 - May 2016</h4>
+              <h5 class="featurette-heading "> Pedestrian Detector/Tracker for ADAS </h5>
+	      <h5>
+                Director: <a href="https://www.linkedin.com/in/faresbeainy/" target="_blank"> Dr. Fares Beainy</a>
+            </div>
+          </div>
+         </div>
+-->
+
+<!--
+        <div class='row vspace-top'>
+          <h1 id="projects ", class="page-header "> Side Projects </h1>
+
+            <h3>Learning a Rich Representation for Text to Image Synthesis</h3>
+          Proposed a deep framework to synthesize an image from text with realistic details in a complicated scene.
+
+
+            <h3>Visual Loop Closure using Deep CNN</h3>
+          Applied the deep neural networks to learn illumination invariant feature representations for loop closure problems.
+
+            <h3>Image Segmentation with Learned features using Deep CNN</h3>
+          Applied edge information and learned features from deep CNN as two ways of similarity measurements.
+-->
+        </div>
+
+        <div class='row vspace-top'></div>
+      </div>
+    </div>
+  </body>
+</html>

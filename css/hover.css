@@ -1,0 +1,14 @@
+.static {
+  width: 150px;
+  border: 4px #BEC7CF double;
+  border-radius: 6px;
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  width: 150px;
+  border: 4px #BEC7CF double;
+  border-radius: 6px;
+  opacity:0;
+}
